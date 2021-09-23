@@ -20,5 +20,7 @@ func Route(e *gin.Engine) {
     test := http.TestController{}
     e.GET("/test", distribute.Handle(test.Test))
     e.GET("/hello", distribute.Handle(test.Hello))
+    // exp: get 、 param
+    e.GET("/get", distribute.Handle(test.TestGet))
 }
 
