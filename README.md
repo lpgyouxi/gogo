@@ -2,4 +2,4 @@
 主要是帮助初学者最基础、简单、明白的理解Gin框架
 
 学习文档：
-[wiki]()
+[wiki](https://www.cnblogs.com/lpit/p/15325675.html)
